@@ -1,3 +1,5 @@
+//prefer not to use var due to issue in  block scope or functional scope.
+//if we declard variable and print it gives value as undefined {let scope;} console.log(scope) ==>> undefined
 //Primitive : 7 types 
 //it also known as call by value i.e, changed in its value can'nt change original value 
 //Eg:1] String 2] Number 3]boolean 4]undefined 5]Null 
