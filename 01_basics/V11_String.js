@@ -34,4 +34,13 @@ console.log(name2);
 const user1 = "    RamPrakash   ";
 //trim
 console.log(user1.trim());  // trim removes empty space
+const user2 = user1.trim();
+//replace : it replaces current value by provided value, if current value is not presnt then it does not work.
+const3 = user2.replace('Prakash','Chandra');
+console.log("How replace works:",const3);
+
+
+//includes : It gives is value presnt or not.Its output is in boolean format.
+console.log(const3.includes('Ram'));
+
 
