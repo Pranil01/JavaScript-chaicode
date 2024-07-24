@@ -41,3 +41,8 @@ console.log(arr1)//splice seprates provided value from original value
 
 
 
+//includes  : gives output in boolean format it tells us value is presnt in array or not
+
+console.log(arr1.includes('Hi'));
+//indexOf() : It gives the position of element position present 
+console.log(arr1.indexOf('Hi'));
