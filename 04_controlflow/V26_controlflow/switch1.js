@@ -35,3 +35,37 @@ switch(month){
 
 //truth values:
 //"0",'false',' ',[],{},function (){}
+
+const userEmail = "pranil.@gmail.com"
+if(userEmail.length ===0){
+    console.log("Empty mail")
+}
+else{
+    console.log("Not Empty mail")
+}
+
+//const empty objects 
+const emptyObject ={}
+if(Object.keys(emptyObject).length===0)
+{
+    console.log("Object is empty")
+}
+
+//Nullish coalasing operator (??) : null /undefined
+
+let val1;
+// val1 = 5 ?? 10; //5
+// val1 = null ?? 10; //10
+val1 = undefined?? 10;
+
+console.log(val1)
+
+
+//ternary ooperator and nullish coalasing operator are different
+
+//Ternary operator
+//Condition ? true:false
+
+const iceT = 100
+iceT >80? console.log("More than 80"):console.log("Less than 80 ")
+
