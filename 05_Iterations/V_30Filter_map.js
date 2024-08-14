@@ -1,6 +1,6 @@
 const coding = ['js','ruby','python','java','cpp']
 
-//foreach  ::  forEach doe not return any value
+//foreach  ::  forEach does not return any value
 // const values = coding.forEach((item)=>
 //     console.log(item)
 // )
